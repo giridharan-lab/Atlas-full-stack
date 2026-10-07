@@ -157,4 +157,4 @@ The application uses **Genkit** for all AI-powered features, such as the Daily B
 
 -   **Flows**: All AI prompts and logic are defined as "flows" in `src/ai/flows/`. These are server-side functions marked with `'use server';`.
 -   **Configuration**: The Genkit instance is configured in `src/ai/genkit.ts`. It defaults to using Google's Gemini models. You can change the model or provider here if needed.
--   **Calling Flows**: Client components import and call these flows directly, as if they were regular async functions. Next.js and Genkit handle the server-side execution automatically.
+
